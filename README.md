@@ -10,7 +10,7 @@ the website has the following features :
 Here is some image of the website :
 ----------------------------------
 1. The **Home Page** Section
-![](./assets/Pictures/capture-one.jpg)
+![](https://github.com/AmineElkhalidy/Personal-Portfolio/assets/Pictures/capture-one.jpg)
 
 2. The **Projects** Section
 ![](./assets/Pictures/capture-two.jpg)
