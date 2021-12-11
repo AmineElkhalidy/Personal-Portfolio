@@ -10,7 +10,7 @@ the website has the following features :
 Here is some image of the website :
 ----------------------------------
 1. The **Home Page** Section
-![alt text](./Pictures/capture-one.jpg)
+![](./Pictures/capture-one.jpg)
 
 2. The **Projects** Section
 ![](./Pictures/capture-two.jpg)
