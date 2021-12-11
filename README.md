@@ -25,5 +25,6 @@ Here is some image of the website :
 ![](./assets/Pictures/capture-five.PNG)
 
 ----------------------------------
-You can contact me using the following resources :
+You can contact me using the following resources :  
+
 *elkhalidyamine.a@gmail.com*
