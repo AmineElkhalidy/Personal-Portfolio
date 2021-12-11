@@ -13,16 +13,16 @@ Here is some image of the website :
 ![alt text](./Pictures/capture-one.jpg)
 
 2. The **Projects** Section
-![alt text](./Pictures/capture-two.jpg)
+![](./Pictures/capture-two.jpg)
 
 3. The **About** Section
-![alt text](./Pictures/capture-three.jpg)
+![](./Pictures/capture-three.jpg)
 
 4. The **Skills** Section
-![alt text](./Pictures/capture-four.jpg)
+![](./Pictures/capture-four.jpg)
 
 5. The **Contact Me** Section
-![alt text](./Pictures/capture-five.jpg)
+![](./Pictures/capture-five.jpg)
 
 ----------------------------------
 You can contact me using the following resources :
