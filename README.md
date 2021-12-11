@@ -8,23 +8,28 @@ the website has the following features :
 3. Background Animation
 
 Here is some image of the website :
-----------------------------------
-1. The **Home Page** Section
+----------------------------------  
+
+1. The **Home Page** Section  
+
 ![](./assets/Pictures/capture-one.PNG)
 
-2. The **Projects** Section
+2. The **Projects** Section  
+
 ![](./assets/Pictures/capture-two.PNG)
 
-3. The **About** Section
+3. The **About** Section  
+
 ![](./assets/Pictures/capture-three.PNG)
 
-4. The **Skills** Section
+4. The **Skills** Section  
+
 ![](./assets/Pictures/capture-four.PNG)
 
-5. The **Contact Me** Section
+5. The **Contact Me** Section  
+
 ![](./assets/Pictures/capture-five.PNG)
 
 ----------------------------------
 You can contact me using the following resources :  
-
 *elkhalidyamine.a@gmail.com*
