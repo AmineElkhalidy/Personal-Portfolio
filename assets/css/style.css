@@ -712,11 +712,13 @@ button{
         column-gap: 3rem;
         align-items: center;
         border: 2px solid #c36cbb;
+        margin-bottom: 10rem;
     }
 
     .skills__container{
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem 2rem;
+        margin-bottom: 10rem;
     }
 
     .skill__info{
