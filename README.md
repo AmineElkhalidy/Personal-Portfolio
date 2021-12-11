@@ -10,19 +10,19 @@ the website has the following features :
 Here is some image of the website :
 ----------------------------------
 1. The **Home Page** Section
-![](https://github.com/AmineElkhalidy/Personal-Portfolio/assets/Pictures/capture-one.jpg)
+![](./assets/Pictures/capture-one.png)
 
 2. The **Projects** Section
-![](./assets/Pictures/capture-two.jpg)
+![](./assets/Pictures/capture-two.png)
 
 3. The **About** Section
-![](./assets/Pictures/capture-three.jpg)
+![](./assets/Pictures/capture-three.png)
 
 4. The **Skills** Section
-![](./assets/Pictures/capture-four.jpg)
+![](./assets/Pictures/capture-four.png)
 
 5. The **Contact Me** Section
-![](./assets/Pictures/capture-five.jpg)
+![](./assets/Pictures/capture-five.png)
 
 ----------------------------------
 You can contact me using the following resources :
