@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="./assets/img/Logo.png" type="image/x-icon">
+
+    <!-- ---------- BOXICON ---------- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- ---------- SWIPER CSS ---------- -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!-- ---------- STYLE CSS ---------- -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Amine Elkhalidy - Portfolio</title>
+</head>
+<body>
+    <!-- ---------- HEADER ---------- -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/img/Logo.png" alt="" class="nav__logo-img"> Amine Elkhalidy
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+
+        
+    </header>
+
+    <main class="main">
+        <!-- ---------- HOME ---------- -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="background">
+                    <div class="home__data">
+                        <h3 class="home__title">Amine Elkhalidy</h3>
+                        <p class="home__description">Front-End Developer <br /> and Designer.</p>
+                        <a href="#projects" class="button btn">
+                            View Projects<i class='bx bx-show home__icon'></i></a>
+                    </div>
+
+                    <div class="cube"></div>
+                    <div class="cube"></div>
+                    <div class="cube"></div>
+                    <div class="cube"></div>
+                   <div class="cube"></div>
+                 </div>
+
+            </div>
+        </section>
+
+        <!-- ---------- PROJECTS ---------- -->
+        <section class="section container projects" id="projects">
+            <h2 class="section__title projects__title">Projects</h2>
+
+            <div class="projects__container grid">
+                <div class="swiper projects-swiper" >
+                    <div class="swiper-wrapper" >
+                        <article class="project__card grid swiper-slide">
+                            <img src="./assets/img/christmas.png" alt="" class="project__img">
+
+                            <div class="project__data">
+                                <h3 class="project__title">Responsive Christmas Website</h3>
+                                <p class="project__description">With the Christmas and the beginning of the new year, you can choose our website to buy cool gifts or send lovely messages to your loved ones.</p>
+
+                                <div class="project__links">
+                                    <a href="#" class="project__links-button btn-1">Source Code</a>
+                                    <a href="#" class="project__links-button btn-2">Visit it</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project__card grid swiper-slide">
+                            <img src="./assets/img/delivery_app.PNG" alt="" class="project__img">
+
+                            <div class="project__data">
+                                <h3 class="project__title">Delivery Mobile App</h3>
+                                <p class="project__description">
+                                    Well designed and programed application, that makes delivering process easy, it keeps you updated by the delivery man location,
+                                    and many more other services, try to use it, then send your feedback :)
+                                </p>
+                                <div class="project__links">
+                                    <a href="#" class="project__links-button btn-1">Source Code</a>
+                                    <a href="#" class="project__links-button btn-2">Visit it</a>
+                                </div>
+
+                                
+                            </div>
+                        </article>
+
+                        <article class="project__card grid swiper-slide">
+                            <img src="./assets/img/advice.png" alt="" class="project__img">
+
+                            <div class="project__data">
+                                <h3 class="project__title">Advice Generator App</h3>
+                                <p class="project__description">
+                                    A simple web app created with react js library, which provides you with a new advice whenever you click on <mark>Next advice</mark>.
+                                </p>
+
+                                <div class="project__links">
+                                    <a href="#" class="project__links-button btn-1">Source Code</a>
+                                    <a href="#" class="project__links-button btn-2">Visit it</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <span class="projects__hint">Swiper left or right to see other projects</span>
+            </div>
+        </section>
+
+        <!-- ---------- ABOUT ---------- -->
+        <section class="section container about" id="about">
+            <h2 class="section__title">About Me :</h2>
+            <div class="about__container grid">
+                <img src="./assets/img/avatar.svg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Hello Dear, I am Amine Elkhalidy, a front end developer and designer, from early age i found that my passion is all around Technology, that why since the last years, i tried to work hard on myself for growing up my development potentials to delivery quality work.<br />
+                        <mark>Note:</mark> I am not handsome as the guy above :)
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- SKILLS ---------- -->
+        <section class="skills section container">
+            <h2 class="section__title">Skills :</h2>
+            <div class="skills__container grid">
+                <div class="skill__info">
+                    <h3 class="skill__name">Front-End :</h3>
+
+                    <ul class="skill__list">
+                        <li class="skill__item">
+                            HTML
+                        </li>
+
+                        <li class="skill__item">
+                            CSS
+                        </li>
+
+                        <li class="skill__item">
+                            SASS
+                        </li>
+
+                        <li class="skill__item">
+                            JavaScript
+                        </li>
+
+                        <li class="skill__item">
+                            ReactJs
+                        </li>
+
+                        <li class="skill__item">
+                            NextJs
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill__info">
+                    <h3 class="skill__name">Back-End :</h3>
+    
+                    <ul class="skill__list">
+                        <li class="skill__item">
+                            Python
+                        </li>
+    
+                        <li class="skill__item">
+                            Java
+                        </li>
+    
+                        <li class="skill__item">
+                            C
+                        </li>
+    
+                        <li class="skill__item">
+                            Node Js
+                        </li>
+    
+                        <li class="skill__item">
+                            Golang
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill__info">
+                    <h3 class="skill__name">Database :</h3>
+    
+                    <ul class="skill__list">
+                        <li class="skill__item">
+                            MySql
+                        </li>
+    
+                        <li class="skill__item">
+                            MongoDB
+                        </li>
+
+                        <li class="skill__item">
+                            NoSql
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill__info">
+                    <h3 class="skill__name">Graphic Design :</h3>
+    
+                    <ul class="skill__list">
+                        <li class="skill__item">
+                            Adobe XD
+                        </li>
+    
+                        <li class="skill__item">
+                            A.Photoshop
+                        </li>
+
+                        <li class="skill__item">
+                            A.Illustrator
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- CONTACT ---------- -->
+        <section class="section container contact" id="contact">
+            <h2 class="section__title">Contact Me:</h2>
+            <div class="contact__container grid">
+                <div class="contact__info">
+                    <p class="contact__title">
+                        Get in touch with me using 
+                        The following resources : 
+                    </p>
+
+                    <div class="contact__data">
+                        <span class="contact__data-mean">
+                            <i class='bx bx-phone contact__icon'></i> +21206-11-15-43-07
+                        </span>
+
+                        <span class="contact__data-mean">
+                            <i class='bx bx-mail-send contact__icon'></i> elkhalidyamine.a@gmail.com
+                        </span>
+                    </div>
+
+                    <div class="contact__data">
+                        <h4 class="contact__social-title" >
+                            Social Accounts :
+                        </h4>
+
+                        <ul class="contact__social-links">
+                            <li>
+                                <a href="https://www.facebook.com/amine.elkhalidy.73/" target="_blank" class="contact__social-link">
+                                    <i class='bx bxl-facebook contact__icon' ></i> Facebook
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/AmineElkhalidy?tab=repositories" target="_blank" class="contact__social-link">
+                                    <i class='bx bxl-github contact__icon' ></i> Github
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com/in/amine-elkhalidy-1a2a15209/" target="_blank" class="contact__social-link">
+                                    <i class='bx bxl-linkedin contact__icon'></i> Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                        
+                    </div>
+                    <form action="" class="message__form">
+                        <h3 class="message__title">
+                            Send A Message
+                        </h3>
+                        <input type="email" placeholder="Write your email" class="message__input" />
+                        <textarea placeholder="Write a message" class="message__textarea" rows="5"></textarea>
+                        <a href="#" class="button message__button">Send Message<i class='bx bx-send message__icon' ></i></a>
+                    </form>
+                </div>
+        </section>
+    </main>
+
+    <!-- ---------- SCROLL UP ---------- -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <!-- ---------- SCROLL REVEAL ---------- -->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!-- ---------- SWIPER JS ---------- -->
+    <script src="./assets/js/swiper-bundle.min.js" ></script>
+
+
+    <!-- ---------- MAIN JS ---------- -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
