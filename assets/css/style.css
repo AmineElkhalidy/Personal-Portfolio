@@ -147,6 +147,12 @@ button{
     transition: .3s;
 }
 
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
 /*=============== NAV ===============*/
 .nav{
     height: var(--header-height);
@@ -454,6 +460,7 @@ button{
 /*=============== SKILLS ===============*/
 .skills__container{
     row-gap: 2rem;
+    background-color: var(--first-color);
 }
 
 .skill__info{
@@ -616,8 +623,18 @@ button{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
+
+    .project__img{
+        width: 280px;
+    }
 }
 
+@media screen and (max-width: 390px) {
+    .project__img{
+        width: 330px;
+    }
+    
+}
 
 /* FOR MEDIUM SCREENS */
 @media screen and (min-width: 580px) {
@@ -674,6 +691,19 @@ button{
     .home__container{
         padding-top: 4rem;
     }
+
+    .project__card{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2.5rem;
+        margin-top: 3rem ;
+        margin-bottom: 2rem;
+    }
+
+    .project__img{
+        width: 400px;
+        height: 300px;
+        justify-self: center;
+    }
 }
 
 
@@ -693,18 +723,13 @@ button{
     }
 
     .project__img{
-        justify-self: center;
+        width: 460px;
+        height: 350px;
+        vertical-align: center;
     }
     .projects__container{
         row-gap: 2rem;
         margin-bottom: 6rem;
-    }
-
-    .project__card{
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2.5rem;
-        margin-top: 3rem ;
-        margin-bottom: 2rem;
     }
 
     .about__container{
