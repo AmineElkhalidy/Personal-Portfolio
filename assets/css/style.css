@@ -652,6 +652,15 @@ button{
     }
 }
 
+@media screen and (min-width: 500px) {
+    .project__img{
+        width: 350px;
+        height: 250px;
+        justify-self: center;
+    }
+    
+}
+
 @media screen and (min-width: 767px) {
     body{
         margin: 0;
